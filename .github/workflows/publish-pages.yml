@@ -2,7 +2,7 @@
 name: publish AVD docs
 on:
   push:
-    branches: [ 'main' ]
+    branches: [ '**' ]
     paths:
     - labs/L3LS_EVPN/sites/site_1/documentation/**
     - labs/L3LS_EVPN/sites/site_2/documentation/**
